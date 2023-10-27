@@ -11,7 +11,6 @@ chrome.bookmarks.getTree((res) => {
     }
   })
   savedForLater.map((bookmark) => {
-    console.log(bookmark)
     const tr = document.createElement('tr')
     const tdName = document.createElement('td')
     const tdDate = document.createElement('td')

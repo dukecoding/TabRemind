@@ -5,7 +5,7 @@ function notifyUser(savedForLater) {
     type: 'basic',
     iconUrl: './images/icon.png',
     title: 'TabReminder',
-    message: `Number of saved for later bookmarks: ${savedForLater.length}`,
+    message: `SFL bookmarks: ${savedForLater.length}\nClick the extension icon to manage`,
   })
 }
 
