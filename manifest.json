@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "TabReminder",
+  "description": "Get notifications to prevent forgetting about your bookmarks.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "./popup/popup.html",
+    "default_icon": "./images/icon.png"
+  },
+  "permissions": ["bookmarks", "notifications"],
+  "background": {
+    "service_worker": "./service-worker.js",
+    "type": "module"
+  }
+}

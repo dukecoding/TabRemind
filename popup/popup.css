@@ -1,0 +1,55 @@
+:root {
+  --blue1: #a4cbff;
+  --blueLogo: #004aad;
+  --blue: #a4cbff;
+  --grey: rgb(240, 240, 240);
+}
+body {
+  width: 25rem;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--blue);
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+}
+table,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+td {
+  padding: 1rem 0.5rem;
+}
+button {
+  padding: 0.5rem 2rem;
+  border: 2px solid black;
+  border-radius: 2rem;
+  background-color: white;
+  cursor: pointer;
+}
+img {
+  border: 0px solid black;
+  border-radius: 2rem;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+tr {
+  background-color: white;
+}
+tr:nth-child(odd) {
+  background-color: var(--grey);
+}
+#button-container {
+  padding-block: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+#logo-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
+  margin-bottom: -0.4rem;
+}
