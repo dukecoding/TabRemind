@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "TabReminder",
+  "name": "TabRemind - Bookmark notifications",
   "description": "Extension for those who save a lot of tabs and never open them again. Get notifications to prevent forgetting about your bookmarks.",
   "version": "1.0",
   "icons": {
