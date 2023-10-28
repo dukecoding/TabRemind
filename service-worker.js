@@ -5,7 +5,7 @@ function notifyUser(savedForLater) {
     type: 'basic',
     iconUrl: './images/icon.png',
     title: 'TabReminder',
-    message: `SFL bookmarks: ${savedForLater.length}\nClick the extension icon to manage`,
+    message: `Saved for later bookmarks: ${savedForLater.length}\nClick the extension icon to manage`,
   })
 }
 
@@ -20,6 +20,6 @@ chrome.bookmarks.onChanged.addListener((id, changeInfo) => {
         savedForLater.push(bookmark)
       }
     })
-    notifyUser(savedForLater)
+    if (savedForLater.length > 0) notifyUser(savedForLater)
   })
 })
