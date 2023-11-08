@@ -9,4 +9,5 @@ Please don't get confused with terminology, tabs and bookmarks are the same thin
 - Click <b>"Load unpacked"</b> button
 - Select unzipped folder
 - Once it's installed, browser should automatically enable the extension
-## It's done! Now, you won't have to worry, that you'll forget about a bookmark 😎
+- It's done!
+## Now, you won't have to worry, that you'll forget about a bookmark 😎
