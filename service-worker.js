@@ -9,7 +9,7 @@ function notifyUser(savedForLater) {
   })
 }
 
-chrome.bookmarks.onChanged.addListener((id, changeInfo) => {
+chrome.bookmarks.onCreated.addListener((id, changeInfo) => {
   chrome.bookmarks.getTree((res) => {
     const allBookmarks = res[0].children[0].children
     const savedForLater = []

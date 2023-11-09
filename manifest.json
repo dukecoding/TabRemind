@@ -4,11 +4,16 @@
   "description": "Extension for those who save a lot of tabs and never open them again. Get notifications to prevent forgetting about your bookmarks.",
   "version": "1.0.0",
   "icons": {
-    "500": "./images/icon.png"
+    "500": "./images/500.png",
+    "450": "./images/450.png",
+    "400": "./images/400.png",
+    "350": "./images/350.png",
+    "300": "./images/300.png",
+    "250": "./images/250.png"
   },
   "action": {
     "default_popup": "./popup/popup.html",
-    "default_icon": "./images/icon.png"
+    "default_icon": "./images/500.png"
   },
   "permissions": ["bookmarks", "notifications"],
   "background": {
