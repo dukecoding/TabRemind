@@ -3,7 +3,7 @@ const CONFIG_CHARACTERS = ['#', 'later', 'rmd']
 function notifyUser(savedForLater) {
   chrome.notifications.create({
     type: 'basic',
-    iconUrl: './images/icon.png',
+    iconUrl: './images/500.png',
     title: 'TabReminder',
     message: `Saved for later bookmarks: ${savedForLater.length}\nClick the extension icon to manage`,
   })
