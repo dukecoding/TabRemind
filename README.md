@@ -4,7 +4,7 @@ Chrome extension for those who save a lot of tabs and never open them again
 ![Popup-screenshot](images/screenshot1.png)
 ## Quick note before you start
 Please don't get confused with terminology, tabs and bookmarks are the same thing. Chrome just refers to saved tabs as bookmarks 😅
-## Instalation
+## Installation
 - Download ZIP file and unzip it
 - Go to `chrome://extensions/` in chrome
 - Turn developer mode on (right top corner)
