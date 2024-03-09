@@ -15,3 +15,4 @@ Please don't get confused with terminology, tabs and bookmarks are the same thin
 ## Usage
 I decided to use one of the three strings that I've chosen to mark your tabs. Use either `#`, `later` or `rmd` (remind for short).
 ## Now, you won't have to worry, that you'll forget about a bookmark 😎
+<i>TODO: Check if any fixes are needed after chrome update</i>
